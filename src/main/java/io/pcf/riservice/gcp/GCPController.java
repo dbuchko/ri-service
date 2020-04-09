@@ -19,10 +19,11 @@ import java.nio.charset.Charset;
 @RequestMapping("/gcp-storage")
 public class GCPController {
 
-    @Value("gs://dvn-hdm-test/my-file.txt")
+//    @Value("gs://dlb-gcp-ri-service/my-file.txt")
+    @Value("gs://dlb-gcp-ri-service/my-file.txt")
     private Resource gcsFile;
 
-    @Value("gs://gfptepvtopsmgrbackup/state.yml")
+    @Value("gs://dbuchko-vm-usage/usage_gce_229714141666_20200302.csv")
     private Resource opsManFile;
 
 

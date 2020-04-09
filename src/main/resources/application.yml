@@ -1,8 +1,14 @@
-spring:
+#spring:
+#  security:
+#    user:
+#      name: admin
+#      password: pcf123
+security:
+  basic:
+    enabled: false
+management:
   security:
-    user:
-      name: admin
-      password: pcf123
+    enabled: false
 ---
 spring:
   profiles: lower

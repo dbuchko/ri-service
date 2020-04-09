@@ -36,7 +36,6 @@ ext {
 dependencies {
 	compile group: 'org.json', name: 'json', version: '20190722'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
