@@ -1,0 +1,12 @@
+---
+applications:
+- name: ri-service
+  path: ../build/libs/ri-service-0.0.1-SNAPSHOT.jar
+  instances: 1
+  services:
+  - ri-gcs-5
+  env:
+    SPRING_PROFILES_ACTIVE: lower
+    SPLUNK_INDEX: pcf
+#    GOOGLE_APPLICATION_CREDENTIALS: ${vcap.services.google-storage.credentials.PrivateKeyData}
+#    JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'

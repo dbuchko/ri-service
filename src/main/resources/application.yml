@@ -1,0 +1,13 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: pcf123
+---
+spring:
+  profiles: lower
+
+logging:
+  level:
+    root: info
+
